@@ -18,6 +18,8 @@ Maven 中的 Archetype 功能都是通过 maven-archetype-plugin 插件实现。
 
 **上图中，列出的所有可用 Archetype 来自于文件 `archetype-catalog.xml`，所以 `archetype-catalog.xml` 文件决定了能够使用的 Archetype，也可以指定使用哪个 `archetype-catalog.xml` 文件。**
 
+> 参考：[archetype-catalog.xml](/docs/maven/4.插件/archetype-catalog.xml.md)
+
 #### 1. 指定 archetype-catalog.xml 文件位置
 > maven-archetype-plugin 不指定 archetype-catalog.xml 文件位置时，默认 remote、local。
 

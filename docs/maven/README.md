@@ -36,6 +36,9 @@
 ### 8. 生成项目站点
 - [intro](/docs/maven/8.生成项目站点/README.md)
 
+### 9. 附录
+- [pom.xml](/docs/maven/附录pom.xml.md)
+- [settings.xml](/docs/maven/附录settings.xml.md)
 
 ## archetype
 
