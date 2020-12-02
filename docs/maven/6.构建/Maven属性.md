@@ -12,9 +12,9 @@ Maven 中的属性
 - `${project.groupId}` ：也就是 `<project><groupId>` 元素的值，项目的 groupId
 - `${project.artifactId}`
 - `${project.version}`
-- ***`${project.build.sourceDirectory}`*** : 项目的主源码目录，默认：src/main/java
-- ***`${project.build.testSourceDirectory}`*** : 项目的测试源码目录，默认：src/test/java
-- `${project.build.directory}` ：项目构建输出目录，默认：target/
+- ***`${project.build.sourceDirectory}`*** : 项目的主源码目录，默认：`src/main/java`
+- ***`${project.build.testSourceDirectory}`*** : 项目的测试源码目录，默认：`src/test/java`
+- `${project.build.directory}` ：项目构建输出目录，默认：`target/`
 
 
 #### 3. 自定义属性

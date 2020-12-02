@@ -31,19 +31,17 @@
 ### 7. 原型（Archetype）
 - [intro](/docs/maven/7.原型/README.md)
 - [自定义 Archetype](/docs/maven/7.原型/自定义Archetype.md)
-    - [archetype-metadata.xml](/dcos/maven/7.原型/archetype-metadata.xml.md)
+    - [archetype-metadata.xml](/docs/maven/7.原型/archetype-metadata.xml.md)
 
 ### 8. 生成项目站点
 - [intro](/docs/maven/8.生成项目站点/README.md)
 
 
-## maven-archetype
+## archetype
 
+### [1. maven-archetype](/maven-archetype)
 Java 项目通用原型。包含以下内容，
-
 - pom.xml
     - JUnit 4.12
-
 - .gitignore
-
 - README.md

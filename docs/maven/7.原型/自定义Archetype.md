@@ -12,7 +12,7 @@
 | pom.xml | 当前项目的 pom |
 | **src/main/resources/archetype-resources/pom.xml** | 基于当前 Archetype 生成的项目的 pom |
 | src/main/resources/archetype-resources/** | Archetype 的其他初始文件。<br>也就是需要包含在基于当前 Archetype 生成的项目的其他文件。 |
-| **src/main/resources/META-INF/maven/archetype-metadata.xml** | Archetype 描述文件，有特定的语法。 |
+| **src/main/resources/META-INF/maven/archetype-metadata.xml** | Archetype 描述文件，有特定的语法。参考：[archetype-metadata.xml](/dcos/maven/7.原型/archetype-metadata.xml.md) |
 
 #### 使用 maven-archetype-plugin 生成
 如果觉得手动编写 Archetype 的 Maven 项目有点麻烦，可以直接用 maven-archetype-plugin 插件生成一个 Archetype Maven 项目。

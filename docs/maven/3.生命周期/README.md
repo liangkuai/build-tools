@@ -19,31 +19,31 @@ clean 生命周期表示清理项目的过程，包含这些阶段：
 - *clean*  清理上一次构建生成的文件。
 - post-clean  执行一些清理后需要完成的工作。
 
-#### default 
+#### default 生命周期
 default 生命周期表示实际的项目构建过程。
 - validate
 - initialize
 - generate-sources
-- *process-sources* ：处理项目主资源文件。一般是对 src/main/resources 目录的内容进行变量替换等工作，复制到项目输出的主 classpath 目录中。
+- *process-sources* ：处理项目主资源文件。一般是对 `src/main/resources` 目录的内容进行变量替换等工作，复制到项目输出的主 classpath 目录中。
 - generate-resources
 - process-resources
-- **compile** ：编译项目的主源码。一般是编译 src/main/java 目录下的 java 文件到项目输出的主 classpath 目录中。
+- ***compile*** ：编译项目的主源码。一般是编译 `src/main/java` 目录下的 java 文件到项目输出的主 classpath 目录中。
 - process-classes
 - generate-test-sources
-- *process-test-sources* ：处理项目测试资源文件。一般是对 src/test/resources 目录的内容进行变量替换等工作，复制到项目输出的测试 classpath 目录中。
+- *process-test-sources* ：处理项目测试资源文件。一般是对 `src/test/resources` 目录的内容进行变量替换等工作，复制到项目输出的测试 classpath 目录中。
 - generate-test-resources
 - process-test-resources
-- *test-compile* ：编译项目的主源码。一般是编译 src/test/java 目录下的 java 文件到项目输出的测试 classpath 目录中。
+- *test-compile* ：编译项目的主源码。一般是编译 `src/test/java` 目录下的 java 文件到项目输出的测试 classpath 目录中。
 - process-test-classes
-- **test** ：使用单元测试框架运行测试，测试代码不会被打包或部署。
+- ***test*** ：使用单元测试框架运行测试，测试代码不会被打包或部署。
 - prepare-package
-- **package** ：把编译好的代码打包成可发布的格式，如 JAR 包。
+- ***package*** ：把编译好的代码打包成可发布的格式，如 JAR 包。
 - pre-integration-test
 - integration-test
 - post-integration-test
 - verify
-- **install** ：将包安装到本地 Maven 仓库，供本地项目使用。
-- **deploy** ：将包复制到远程仓库，供其他人使用。
+- ***install*** ：将包安装到本地 Maven 仓库，供本地项目使用。
+- ***deploy*** ：将包复制到远程仓库，供其他人使用   。
 
 #### site 生命周期
 site 生命周期表示建立和发布项目站点的过程。

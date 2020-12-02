@@ -30,7 +30,7 @@ $ mvn archetype:generate -DarchetypeCatalog=xxx
 
 ```bash
 $ mvn archetype:generate -B \
-		-DarchetypeGroupId=org.apache.maven.archetypes
+    -DarchetypeGroupId=org.apache.maven.archetypes
     -DarchetypeArtifactId=maven-archetype-quickstart
     -DarchetypeVersion=1.1
     -DgroupId=com.test

@@ -8,7 +8,7 @@
 
 ### 2. archetype-catalog.xml 文件在哪里？
 - `internal` ：maven-archetype-plugin 内置
-- `local` ：~/.m2/repository/archetype-catalog.xml
+- `local` ：**~/.m2/repository/archetype-catalog.xml**
 - `remote` ：maven 中央仓库下
 - `file://...`
 - `http://...`
@@ -29,6 +29,6 @@ $ mvn archetype:crawl
 
 ```bash
 $ mvn archetype:crawl \
-		-Drepository=~/.m2/repository \
+    -Drepository=~/.m2/repository \
     -Dcatalog=/tmp/archetype-catalog.xml
 ```
