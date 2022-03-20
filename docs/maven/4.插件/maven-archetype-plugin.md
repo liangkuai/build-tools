@@ -3,7 +3,6 @@
 Maven 中的 Archetype 功能都是通过 maven-archetype-plugin 插件实现。
 
 
----
 ### 使用 Archetype 生成一个项目骨架
 
 1. 运行命令：`mvn archetype:generate`；
@@ -21,17 +20,19 @@ Maven 中的 Archetype 功能都是通过 maven-archetype-plugin 插件实现。
 > 参考：[archetype-catalog.xml](/docs/maven/4.插件/archetype-catalog.xml.md)
 
 #### 1. 指定 archetype-catalog.xml 文件位置
+
 > maven-archetype-plugin 不指定 archetype-catalog.xml 文件位置时，默认 remote、local。
 
 ```bash
-$ mvn archetype:generate -DarchetypeCatalog=xxx
+mvn archetype:generate -DarchetypeCatalog=xxx
 ```
 
 #### 2. 指定 Archetype 具体坐标
+
 常用于自动化脚本生成项目
 
 ```bash
-$ mvn archetype:generate -B \
+mvn archetype:generate -B \
     -DarchetypeGroupId=org.apache.maven.archetypes
     -DarchetypeArtifactId=maven-archetype-quickstart
     -DarchetypeVersion=1.1

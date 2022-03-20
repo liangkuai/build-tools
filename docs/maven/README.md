@@ -16,12 +16,15 @@
 ### 3. 生命周期
 - [intro](/docs/maven/3.生命周期/README.md)
 
+
 ### 4. 插件
+
 - [intro](/docs/maven/4.插件/README.md)
 - 常用插件
     - [maven-surefire-plugin](/docs/maven/4.插件/maven-surefire-plugin.md)
     - [maven-archetype-plugin](/docs/maven/4.插件/maven-archetype-plugin.md)
         - [archetype-catalog.xml](/docs/maven/4.插件/archetype-catalog.xml.md)
+
 
 ### 5. 聚合 & 继承
 - [聚合](/docs/maven/5.聚合&继承/聚合.md)
@@ -31,10 +34,13 @@
 - [intro](/docs/maven/6.构建/README.md)
 - [Maven 属性](/docs/maven/6.构建/Maven属性.md)
 
+
 ### 7. 原型（Archetype）
+
 - [intro](/docs/maven/7.原型/README.md)
 - [自定义 Archetype](/docs/maven/7.原型/自定义Archetype.md)
     - [archetype-metadata.xml](/docs/maven/7.原型/archetype-metadata.xml.md)
+
 
 ### 8. 生成项目站点
 - [intro](/docs/maven/8.生成项目站点/README.md)
