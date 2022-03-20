@@ -49,11 +49,24 @@
 - [pom.xml](/docs/maven/附录pom.xml.md)
 - [settings.xml](/docs/maven/附录settings.xml.md)
 
+
+
 ## archetype
 
 ### [1. maven-archetype](/maven-archetype)
+
 Java 项目通用原型。包含以下内容，
+
 - pom.xml
-    - JUnit 4.12
+- .gitignore
+- README.md
+
+
+### [2. ddd-archetype](/ddd-archetype)
+
+Java DDD 项目通用原型。包含以下内容，
+
+- modules
+- pom.xml
 - .gitignore
 - README.md
